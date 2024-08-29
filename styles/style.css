@@ -3,12 +3,20 @@
     src:url("Rafgins-Regular.otf") format("opentype");
 }
 
+body {
+    font-family:"Rafgins-Regular";
+}
+
+h1 {
+    font-size:25vw;
+}
+
+p {
+    font-size:10vw;
+}
+
 img {
     float:right;
 }
 
-h1 {
-    font-family:"Rafgins-Regular";
-    font-size:25vw;
-}
 
