@@ -8,6 +8,11 @@ body {
     background-image:url('images/sun.png')
 }
 
+.container {
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0,1fr));
+}
+
 h1 {
     font-size:40vh !important;
     margin-top:0px;
