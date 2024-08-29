@@ -1,0 +1,9 @@
+@font-face {
+    font-family: Rafgins-Regular;
+    src: url("styles/Rafgins-Regular.otf") format("opentype");
+}
+
+img {
+    float: right;
+}
+
