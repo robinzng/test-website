@@ -1,5 +1,5 @@
 @font-face {
-    font-family: Rafgins-Regular;
+    font-family: "Rafgins-Regular";
     src: url("Rafgins-Regular.otf") format("opentype");
 }
 
@@ -8,6 +8,6 @@ img {
 }
 
 h1 {
-    font-family: Rafgins-Regular;
+    font-family: "Rafgins-Regular";
 }
 
