@@ -8,11 +8,11 @@ body {
 }
 
 h1 {
-    font-size:25vw;
+    font-size:25vw !important;
 }
 
 p {
-    font-size:10vw;
+    font-size:10vw !important;
 }
 
 img {
