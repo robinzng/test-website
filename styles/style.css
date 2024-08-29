@@ -1,13 +1,14 @@
 @font-face {
-    font-family: "Rafgins-Regular";
-    src: url("Rafgins-Regular.otf") format("opentype");
+    font-family:"Rafgins-Regular";
+    src:url("Rafgins-Regular.otf") format("opentype");
 }
 
 img {
-    float: right;
+    float:right;
 }
 
 h1 {
-    font-family: "Rafgins-Regular";
+    font-family:"Rafgins-Regular";
+    font-size:25vw;
 }
 
