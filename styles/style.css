@@ -26,15 +26,20 @@ body {
     font-size: large;
 }
 
-h1 {
-    font-size: 35vh;
+.page {
+    display: flex;
+    justify-content: left;
+    height: 90vh;
     margin-top: 15vh;
-    margin-left: 1vw;
+    margin-left: auto;
+}
+
+h1 {
+    font-size: 30%;
 }
 
 p {
-    font-size: 10vh;
-    margin-left: 1vw;
+    font-size: 10%;
 }
 
 a, a:link, a:visited {
