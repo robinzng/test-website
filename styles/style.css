@@ -8,18 +8,19 @@ body {
     background-image:url('images/sun.png')
 }
 
-.container {
-    display: grid;
-    grid-template-columns: repeat(12, minmax(0,1fr));
+.top-nav {
+    position:fixed;
+    margin-top:0px;
+    background-color:black;
 }
 
 h1 {
     font-size:40vh !important;
-    margin-top:0px;
+    margin-top:20px;
 }
 
 p {
-    font-size:20vh !important;
+    font-size:10vh !important;
 }
 
 img {
