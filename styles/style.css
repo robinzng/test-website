@@ -31,8 +31,7 @@ body {
 
 .page {
     display: flex;
-    flex-wrap: wrap;
-    flex-flow: row;
+    flex-flow: column;
     height: 90vh;
 }
 
