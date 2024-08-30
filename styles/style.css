@@ -35,6 +35,8 @@ h1 {
 p {
     font-size: 10vh;
     margin-left: 1vw;
+    position: fixed;
+    margin-bottom: 1.5vh;
 }
 
 a, a:link, a:visited {
