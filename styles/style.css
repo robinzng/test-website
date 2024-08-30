@@ -8,7 +8,7 @@ body {
     background-image: url('images/sun.png')
 }
 
-.head {
+.top {
     display: flex;
     margin-top: 1.5vh;
     justify-content: center;
