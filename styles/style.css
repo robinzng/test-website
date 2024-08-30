@@ -37,11 +37,11 @@ p {
     margin-top:2vw;
 }
 
-a a:link a:visited {
+a, a:link, a:visited {
     color:white;
 }
 
-a:hover a:focus a:active {
+a:hover, a:focus, a:active {
     color:white;
     text-decoration: underline;
 }
