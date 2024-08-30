@@ -13,7 +13,7 @@ body {
     margin-top:0px;
     width:75vw;
     height:15px;
-    background-color:black !important;
+    background-color:black;
     color:white;
 }
 
@@ -24,6 +24,28 @@ h1 {
 
 p {
     font-size:10vh !important;
+}
+
+a:link {
+    color:white;
+}
+
+a:visited {
+    color:white;
+}
+
+a:hover {
+    color:white;
+    text-decoration: underline;
+}
+
+a:focus{
+    color:white;
+}
+  
+a:active{
+    color:white;
+    text-decoration:underline;
 }
 
 img {
