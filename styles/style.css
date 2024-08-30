@@ -14,14 +14,16 @@ body {
 }
 
 .nav {
+    display: flex;
     position:fixed;
-    margin-top:0px;
+    margin-top:1vh;
+    justify-content: center;
+    align-items: center;
     border-radius:5px;
     text-align:center;
     width:75vw;
-    height:10vw;
+    height:10vh;
     background-color:black;
-    color:white;
 }
 
 h1 {
@@ -34,17 +36,13 @@ p {
     margin-top:5vw;
 }
 
-/*a a:link a:visited {
+a a:link a:visited {
     color:white;
-}*/
+}
 
 a:hover a:focus a:active {
     color:white;
     text-decoration: underline;
-}
-
-img {
-    float:right;
 }
 
 
