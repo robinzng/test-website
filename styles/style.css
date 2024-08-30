@@ -8,7 +8,7 @@ body {
     background-image:url('images/sun.png')
 }
 
-top-nav {
+.nav {
     position:fixed;
     margin-top:0px;
     width:75vw;
