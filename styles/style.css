@@ -19,12 +19,13 @@ body {
 }
 
 h1 {
-    font-size:30vh !important;
+    font-size:30vh;
     margin-top:15vw;
 }
 
 p {
-    font-size:10vh !important;
+    font-size:10vh;
+    margin-top:5vw;
 }
 
 /*a a:link a:visited {
