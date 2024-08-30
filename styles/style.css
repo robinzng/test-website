@@ -54,6 +54,12 @@ h1 {
     bottom: 0px;
 }
 
+#sun {
+    position: absolute;
+    top: 2vh;
+    right: 2vh;
+}
+
 a, a:link, a:visited {
     color: white;
 }
