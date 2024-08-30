@@ -19,11 +19,12 @@ body {
     margin-top:1vh;
     justify-content: center;
     align-items: center;
-    border-radius:5px;
+    border-radius:100px;
     text-align:center;
     width:75vw;
-    height:10vh;
+    height:8vh;
     background-color:black;
+    font-size: large;
 }
 
 h1 {
