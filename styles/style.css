@@ -8,14 +8,14 @@ body {
     background-image: url('images/sun.png')
 }
 
-.top {
+.head {
     display: flex;
+    position: fixed;
     justify-content: center;
+    height: 10vh;
 }
 
 .nav {
-    display: flex;
-    position: fixed;
     margin-top: 1.5vh;
     justify-content: center;
     align-items: center;
@@ -24,6 +24,13 @@ body {
     height: 8vh;
     background-color: black;
     font-size: large;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    height: 90vh;
 }
 
 #intro {
@@ -35,8 +42,6 @@ body {
 #summary {
     font-size: 10vh;
     margin-left: 1vw;
-    position: fixed;
-    margin-bottom: 1.5vh;
 }
 
 a, a:link, a:visited {
