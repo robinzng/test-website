@@ -9,11 +9,8 @@ body {
     background-image: url('images/sun.png')
 }
 
-.flex-container {
-    display: inline-flex;
-}
-
 .top {
+    display: flex;
     margin-top: 1.5vh;
     justify-content: center;
     align-items: center;
@@ -21,6 +18,7 @@ body {
 }
 
 .nav {
+    display: flex;
     position: fixed;
     justify-content: center;
     align-items: center;
@@ -32,12 +30,12 @@ body {
 }
 
 .page {
+    display: flex;
     flex-flow: column;
     align-items: center;
     height: 80vh;
-    width: 100vw;
+    width: 90vw;
     margin-left: 1vw;
-    margin-right: 1vw;
 }
 
 #intro {
@@ -46,6 +44,7 @@ body {
 }
 
 h1 {
+    display: flex;
     margin-top: 0px;
 }
 
