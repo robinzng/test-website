@@ -26,13 +26,13 @@ body {
     font-size: large;
 }
 
-h1 {
+#intro {
     font-size: 35vh;
     margin-top: 15vh;
     margin-left: 1vw;
 }
 
-p {
+#summary {
     font-size: 10vh;
     margin-left: 1vw;
     position: fixed;
