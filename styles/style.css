@@ -61,11 +61,11 @@ h1 {
     top: 2vh;
     right: 2vh;
     z-index: 0;
-    size: 20vh;
+    inline-size: 20vh;
 }
 
 #sun:hover {
-    size: 40vh;
+    inline-size: 40vh;
 }
 
 a, a:link, a:visited {
