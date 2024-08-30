@@ -8,10 +8,15 @@ body {
     background-image:url('images/sun.png')
 }
 
+.top {
+    display:flex;
+    justify-content:center;
+}
+
 .nav {
     position:fixed;
     margin-top:0px;
-    justify-content:center;
+    text-align:center;
     width:75vw;
     height:10vw;
     background-color:black;
