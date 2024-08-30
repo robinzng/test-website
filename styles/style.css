@@ -10,13 +10,15 @@ body {
 
 .head {
     display: flex;
-    position: fixed;
+    margin-top: 1.5vh;
     justify-content: center;
+    align-items: center;
     height: 10vh;
 }
 
 .nav {
-    margin-top: 1.5vh;
+    display: flex;
+    position: fixed;
     justify-content: center;
     align-items: center;
     border-radius: 100px;
