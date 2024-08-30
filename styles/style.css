@@ -5,6 +5,7 @@
 
 body {
     font-family: "Rafgins-Regular";
+    font-size: 8vh;
     background-image: url('images/sun.png')
 }
 
@@ -36,14 +37,16 @@ body {
 }
 
 #intro {
-    font-size: 35vh;
-    margin-top: 15vh;
+    height: 45vh;
+    font-size: 400%;
     margin-left: 1vw;
 }
 
 #summary {
     font-size: 10vh;
     margin-left: 1vw;
+    position: fixed;
+    bottom: 0px;
 }
 
 a, a:link, a:visited {
