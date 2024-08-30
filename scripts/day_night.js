@@ -1,1 +1,1 @@
-const sunPosition = document.querySelector()
+const sunPosition = document.querySelector("sun")
