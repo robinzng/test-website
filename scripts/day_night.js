@@ -4,7 +4,17 @@ sunImage.onclick = () => {
   const sunTopPosition = window.getComputedStyle(sunImage).getPropertyValue("top");
   const sunBottomPosition = window.getComputedStyle(sunImage).getPropertyValue("bottom");
 
-  sunImage.animate([{transform:"rotate(0) scale(1)"},{transform: "rotate(360deg) scale(0)"},],[{duration:2000, iterations: 1,}])
+  const newspaperSpinning = [
+    { transform: "rotate(0) scale(1)" },
+    { transform: "rotate(360deg) scale(0)" },
+  ];
+  
+  const newspaperTiming = {
+    duration: 2000,
+    iterations: 1,
+  };
+
+  sunImage.animate(newspaperSpinning, newspaperTiming)
 
 /*   if (sunTopPosition < sunBottomPosition) {
     sunImage.style.top='auto';
