@@ -1,11 +1,12 @@
 const sunImage = document.querySelector("#sun");
-const sunPosition = window.getComputedStyle(sunImage.getPropertyValue("top"));
+
 
 sunImage.onclick = () => {
-  sunPosition = 100 - sunPosition;
+  const currentSunPosition = window.getComputedStyle(sunImage.getPropertyValue("top"));
+  newSunPosition = 100 - currentSunPosition;
 
   sunImage.animate(
-    { transform: `translate(${sunPosition}px)`}, 
+    { transform: `translate(${newSunPosition}px)`}, 
     { duration: 2000, fill: "forwards"},
     );
 
