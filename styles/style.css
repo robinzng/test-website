@@ -66,10 +66,6 @@ h1 {
     inline-size: 20vh;
 }
 
-#sun:hover {
-    inline-size: 40vh;
-}
-
 a, a:link, a:visited {
     color: white;
 }
