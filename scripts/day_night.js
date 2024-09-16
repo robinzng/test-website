@@ -1,8 +1,8 @@
 const sunImage = document.querySelector("#sun");
 
 sunImage.onclick = () => {
-  const currentSunPosition = window.getComputedStyle(sunImage).getPropertyValue("top");
-  const newSunPosition = 100 - currentSunPosition;
+  let currentSunPosition = window.getComputedStyle(sunImage).getPropertyValue("top");
+  newSunPosition = 500 - currentSunPosition;
 
   const sunKeys = [
     { transform: "translateX(0) translateY(0)" },
