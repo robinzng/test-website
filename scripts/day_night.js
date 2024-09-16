@@ -9,12 +9,12 @@ sunImage.onclick = () => {
     { transform: "translateX(-2vh) translateY(-2vh)" },
   ];
   
-  const newspaperTiming = {
+  const sunTiming = {
     duration: 2000,
     iterations: 1,
   };
 
-  sunImage.animate(newspaperSpinning, newspaperTiming)
+  sunImage.animate(sunKeys, sunTiming)
 
 /*   if (sunTopPosition < sunBottomPosition) {
     sunImage.style.top='auto';
