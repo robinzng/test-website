@@ -4,9 +4,9 @@ sunImage.onclick = () => {
   const sunTopPosition = window.getComputedStyle(sunImage).getPropertyValue("top");
   const sunBottomPosition = window.getComputedStyle(sunImage).getPropertyValue("bottom");
 
-  const newspaperSpinning = [
-    { transform: "rotate(0) scale(1)" },
-    { transform: "rotate(360deg) scale(0)" },
+  const sunKeys = [
+    { transform: "translateX(0) translateY(0)" },
+    { transform: "translateX(-2vh) translateY(-2vh)" },
   ];
   
   const newspaperTiming = {
