@@ -1,20 +1,13 @@
 const sunImage = document.querySelector("#sun");
+const sunPosition = window.getComputedStyle(sunImage.getPropertyValue("top"));
 
 sunImage.onclick = () => {
-  const sunTopPosition = window.getComputedStyle(sunImage).getPropertyValue("top");
-  const sunBottomPosition = window.getComputedStyle(sunImage).getPropertyValue("bottom");
+  sunPosition = 100 - sunPosition;
 
-  const sunKeys = [
-    { transform: "translateX(0) translateY(0)" },
-    { transform: "translateX(-2vh) translateY(-2vh)" },
-  ];
-  
-  const sunTiming = {
-    duration: 2000,
-    iterations: 1,
-  };
-
-  sunImage.animate(sunKeys, sunTiming)
+  sunImage.animate(
+    { transform: `translate(${sunPosition}px)`}, 
+    { duration: 2000, fill: "forwards"},
+    );
 
 /*   if (sunTopPosition < sunBottomPosition) {
     sunImage.style.top='auto';
@@ -27,7 +20,4 @@ sunImage.onclick = () => {
     sunImage.style.bottom='auto';
     sunImage.style.left='auto';
   } */
-
-  console.log(sunTopPosition);
-  console.log(sunBottomPosition);  
 };

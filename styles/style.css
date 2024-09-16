@@ -59,7 +59,7 @@ h1 {
 #sun {
     position: absolute;
     top: 2vh;
-    right: 2vh;
+    right: 2vw;
     bottom: auto;
     left: auto;
     z-index: 0;
